@@ -12,7 +12,7 @@ $ apt install python-pip
 $ pip install awscli
 $ pip install boto3
 $ pip install python-magic==0.4.15
-$ wget https://raw.githubusercontent.com/rohitcoder/BBB-AWS-S3/master/bbb-s3.py
+$ wget https://raw.githubusercontent.com/alexanderlhk/BBB-AWS-S3/master/bbb-s3.py
 ```
 ### Get ready with AWS keys, How to get AWS Access Key ID and Secret Access Key ?
 1. Follow this video https://youtu.be/665RYobRJDY
@@ -30,7 +30,7 @@ $ aws configure
   Default output format [None]: Again, press enter without typing anything
 ```
 
-![AWS CLI](https://raw.githubusercontent.com/rohitcoder/BBB-AWS-S3/master/Screenshot%202020-06-12%20at%2011.46.12%20PM.png)
+![AWS CLI](https://raw.githubusercontent.com/alexanderlhk/BBB-AWS-S3/master/Screenshot%202020-06-12%20at%2011.46.12%20PM.png)
 
 Now, Lets edit ```bbb-s3.py```
 
@@ -46,7 +46,7 @@ $ vi writing.js
 ```
 Here you need to change value of url to your s3 bucket address and add meetinID variable at end.
 
-![Editing Writing.js](https://raw.githubusercontent.com/rohitcoder/BBB-AWS-S3/master/Screenshot%202020-05-25%20at%2010.56.37%20PM.png)
+![Editing Writing.js](https://raw.githubusercontent.com/alexanderlhk/BBB-AWS-S3/master/Screenshot%202020-05-25%20at%2010.56.37%20PM.png)
 
 ##### Now, final step.
 
@@ -76,11 +76,8 @@ This will run bbb-s3.py after every 5 minutes.
 
 It should look like this
 
-![](https://raw.githubusercontent.com/rohitcoder/BBB-AWS-S3/master/Screenshot%202020-05-25%20at%2011.30.47%20PM.png)
+![](https://raw.githubusercontent.com/alexanderlhk/BBB-AWS-S3/master/Screenshot%202020-05-25%20at%2011.30.47%20PM.png)
 
 
 Now, you are ready to go, it should work on your side!
 
-For any question, you can create issues under this repo, and i'll try to answer your question ASAP! 🤟
-
-You can follow me or add me on https://twitter.com/@rohitcoder & https://linkedin.com/in/rohitcoder
